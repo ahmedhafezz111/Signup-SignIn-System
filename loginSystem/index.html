@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+
+        <div class="main  col-md-6 col-lg-4 col-10   mx-auto shadow-lg py-5 mt-5 rounded-4">
+            <div class="container ">
+                <div class="title text-center mb-5"> <h2>Signup</h2></div>
+               
+                <input type="text" oninput="changeColor(this)" onclick="typing()" class="form-control mt-2" id="userName" placeholder="Enter your name...">
+                <input type="email"oninput="changeColor(this)"  onclick="typing()" class="form-control mt-2" id="userEmail" placeholder="Enter your email...">
+                <input type="password" oninput="changeColor(this)" onclick="typing()" class="form-control mt-2" id="userPassword" placeholder="Enter your password...">
+                <input type="password" oninput="changeColor(this)" onclick="typing()" class="form-control mt-2" id="checkPassword" placeholder="Check password...">
+                <div class="alert alert-danger mt-2 d-none" role="alert">
+                   all data is required !
+                  </div>
+                  <div class="text-center">
+                    <button onclick="signUp()" class="btn btn1 w-25  mt-3">Signup</button>
+               <a type="button" href="login.html" class="btn btn-link d-block  color-2 mt-2">You have an account? Signin</a>
+
+                  </div>
+  
+                
+            </div>
+       
+        </div>
+
+     
+      
+ 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
